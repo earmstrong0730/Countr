@@ -8,21 +8,24 @@ using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
-using Android.Widget;
+
+using MvvmCross.Droid.Support.V7.AppCompat;
+using Android.Support.V7.Widget;
+using Countr.Core.ViewModels;
+
 
 namespace Countr.Droid.Views
 {
-    [Activity(Label = "CountrView")]
-    public class CountrView : Activity
+    [Activity(Label = "Add a new counter")]
+    public class CountrView : MvxAppCompatActivity<CountrViewModel>
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(savedInstanceState);
+            base.OnCreate(bundle);
+            SetContentView(Resource.Layout.countr_view);
 
-            // Create your application here
-
-
-            //adding comments to different files and hings
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetSupportActionBar(toolbar);
         }
     }
 }

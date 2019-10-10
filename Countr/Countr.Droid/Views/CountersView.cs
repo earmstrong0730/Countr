@@ -14,22 +14,23 @@ using Countr.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 
-//the counters master view // adding another comment
+//the counters master view 
 namespace Countr.Droid.Views
 {
     [Activity(Label = "CountersView")]
-    public class CountersView : MvxAppCompatActivity<CountersViewModel>
+    public class CountersView : MvxAppCompatActivity<CountersViewModel>  //Uses the generic version of the MvvmCross activity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(savedInstanceState);
+            base.OnCreate(bundle);
 
-            // Create your application here
-            SetContentView(Resource.Layout.counters_view); //Uses the generic version of the MvvmCross activity
+            SetContentView(Resource.Layout.counters_view); 
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
+
+            var recyclerView = FindViewById<MvxRecyclerView>(Resource.Id.recycler_view); //Finds the recycler view in the UI, and sets its layout manager
+            recyclerView.SetLayoutManager(new LinearLayoutManager(this)); //Layout managers arranges items in a verticle list
         }
     }
 }
-//changing the app 
