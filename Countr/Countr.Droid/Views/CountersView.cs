@@ -14,7 +14,7 @@ using Countr.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 
-//the counters master view
+//the counters master view // adding another comment
 namespace Countr.Droid.Views
 {
     [Activity(Label = "CountersView")]
@@ -32,3 +32,4 @@ namespace Countr.Droid.Views
         }
     }
 }
+//changing the app 

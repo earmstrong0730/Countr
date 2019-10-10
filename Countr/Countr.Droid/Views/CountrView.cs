@@ -20,6 +20,9 @@ namespace Countr.Droid.Views
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+
+
+            //adding comments to different files and hings
         }
     }
 }
