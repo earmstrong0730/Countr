@@ -26,6 +26,33 @@ namespace Countr.Droid.Views
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
+
+            SupportActionBar.SetDefaultDisplayHomeAsUpEnabled(true); //Shows the Up button
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item) //Overrides the OnoptionsItemSelected method
+        {
+         switch (item.ItemId) //ItemId is the ID of the menu item
+            {
+                case Android.Resource.Id.Home: //Android.Resource.Id.Home is the ID of hte Up button, and it comes from the Android SDK
+                    ViewModel.CancelCommand.Execute(null);
+                    return true;
+                case Resource.Id.action_save_counter: //If the Done menu item is tapped, execute the save command
+                    ViewModel.SaveCommand.Execute(null);
+                    return true;
+                default:
+                    return base.OnOptionsItemSelected(item);
+
+            }
+
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu) //Overrides the options menu creation
+        {
+            base.OnCreateOptionsMenu(menu);
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar); //Finds the toolbar in the UI
+            toolbar.InflateMenu(Resource.Menu.new_counter_menu); //inflates the new counter menu resource
+            return true;
         }
     }
 }

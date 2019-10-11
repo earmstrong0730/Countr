@@ -31,6 +31,12 @@ namespace Countr.Droid.Views
 
             var recyclerView = FindViewById<MvxRecyclerView>(Resource.Id.recycler_view); //Finds the recycler view in the UI, and sets its layout manager
             recyclerView.SetLayoutManager(new LinearLayoutManager(this)); //Layout managers arranges items in a verticle list
+
+            var callback = new SwipeItemTouchHelperCallback(ViewModel); //creates the callback and uses it to construct a touch helper and attatch it to the recycler view
+            var touchHelper = new ItemTouchHelper(callback);
+            touchHelper.AttachToRecyclerView(recyclerView);
+
+
         }
     }
 }
