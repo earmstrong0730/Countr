@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!--Get colors from: http://www.materialpalette.com/-->
-  <color name="primary">#03A9F4</color>
-  <color name="primaryDark">#0288D1</color>
+  <color name="primary">#FF9800</color>
+  <color name="primaryDark">#F57C00</color>
   <color name="accent">#FFC107</color>
   <color name="lightPrimary">#B3E5FC</color>
   <color name="textIcon">#FFFFFF</color>

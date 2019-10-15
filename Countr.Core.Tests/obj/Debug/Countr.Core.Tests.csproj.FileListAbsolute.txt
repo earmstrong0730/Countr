@@ -14,7 +14,6 @@ C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr.C
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr.Core.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr.Core.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr.Core.Tests\obj\Debug\Countr.Core.Tests.csprojAssemblyReference.cache
-C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr.Core.Tests\obj\Debug\Countr.Core.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr.Core.Tests\obj\Debug\Countr.Core.Tests.csproj.CopyComplete
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr.Core.Tests\obj\Debug\Countr.Core.Tests.dll
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr.Core.Tests\obj\Debug\Countr.Core.Tests.pdb
