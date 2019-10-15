@@ -4,7 +4,6 @@ android.support.design.widget.FloatingActionButton;obj\Debug\90\res\layout\count
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
 attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
-bitmap;obj\Debug\90\res\drawable\splashscreens.xml
 color;obj\Debug\90\res\values\colors.xml
 declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
@@ -18,13 +17,11 @@ include;obj\Debug\90\res\layout\countr_view.xml
 integer;obj\Debug\90\res\values\integers.xml
 item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
 item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
-item;obj\Debug\90\res\drawable\splashscreens.xml
 item;obj\Debug\90\res\menu\new_counter_menu.xml
 item;obj\Debug\90\res\values\arrays.xml
 item;obj\Debug\90\res\values\splashstyle.xml
 item;obj\Debug\90\res\values\styles.xml
 item;obj\Debug\90\res\values-v21\styles.xml
-layer-list;obj\Debug\90\res\drawable\splashscreens.xml
 LinearLayout;obj\Debug\90\res\layout\splashscreen.xml
 menu;obj\Debug\90\res\menu\new_counter_menu.xml
 mvvmcross.droid.support.v7.recyclerview.MvxRecyclerView;obj\Debug\90\res\layout\counters_view.xml
@@ -44,8 +41,6 @@ resources;obj\Debug\90\res\values\splashstyle.xml
 resources;obj\Debug\90\res\values\strings.xml
 resources;obj\Debug\90\res\values\styles.xml
 resources;obj\Debug\90\res\values-v21\styles.xml
-shape;obj\Debug\90\res\drawable\splashscreens.xml
-solid;obj\Debug\90\res\drawable\splashscreens.xml
 string;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Droid\obj\Debug\90\lp\7\jl\res\values\strings.xml
 string;obj\Debug\90\res\values\strings.xml
 string-array;obj\Debug\90\res\values\arrays.xml
