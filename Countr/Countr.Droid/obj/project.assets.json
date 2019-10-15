@@ -1237,7 +1237,6 @@
         "content/net45/Bootstrap/MessengerPluginBootstrap.cs.pp",
         "content/uap10.0/Bootstrap/MessengerPluginBootstrap.cs.pp",
         "lib/MonoAndroid/MvvmCross.Plugins.Messenger.dll",
-        "lib/MonoAndroid/MvvmCross.Plugins.Messenger.dll.mdb",
         "lib/MonoAndroid/MvvmCross.Plugins.Messenger.pdb",
         "lib/MonoAndroid/MvvmCross.Plugins.Messenger.pdb.srcsrv",
         "lib/Xamarin.Mac20/MvvmCross.Plugins.Messenger.dll",
