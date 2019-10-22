@@ -5,3 +5,4 @@ C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\C
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Core\obj\Debug\netstandard1.4\Countr.Core.AssemblyInfo.cs
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Core\obj\Debug\netstandard1.4\Countr.Core.dll
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Core\obj\Debug\netstandard1.4\Countr.Core.pdb
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\Countr\Countr\Countr.Core\obj\Debug\netstandard1.4\Countr.Core.csprojAssemblyReference.cache

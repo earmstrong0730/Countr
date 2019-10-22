@@ -11,6 +11,7 @@ using MvvmCross.Core.Navigation;
 
 //This viewmodel represents a list of counters, each represented by CountrViewModel instances that wrap each counter
 //It is the "view all counters" view
+//adding another comment to change another file
 
 namespace Countr.Core.ViewModels
 {
